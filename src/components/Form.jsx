@@ -19,6 +19,7 @@ const Form = ({ addTaskList }) => {
 
     addTaskList(form);
     setForm({});
+    e.target.reset();
   };
 
   return (
