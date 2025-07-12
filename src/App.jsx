@@ -19,8 +19,6 @@ const App = () => {
       type: "entry",
     };
 
-    console.log(totalHrs);
-
     if (totalHrs + taskObj.hr > hrPerWeek) {
       return alert(
         "Sorry Boss! not enough time to fit this task from last week"
