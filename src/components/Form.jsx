@@ -38,6 +38,7 @@ const Form = ({ addTaskList }) => {
             name="task"
             id="task"
             onChange={handleOnChange}
+            required
           />
         </div>
         <div className="col-md-2">
@@ -50,6 +51,7 @@ const Form = ({ addTaskList }) => {
             min="1"
             id="hr"
             onChange={handleOnChange}
+            required
           />
         </div>
         <div className="col-md-3 d-grid">
